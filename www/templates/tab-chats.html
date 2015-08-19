@@ -1,0 +1,36 @@
+
+
+
+
+<ion-view view-title="EL CLIMA ACTUAL ES...">
+  <ion-content class="padding">
+  <ion-refresher
+    pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher>
+    
+  <ion-list>
+     
+    <ion-item ng-repeat="item in items"></ion-item>
+  </ion-list>
+    <div class="listCard">
+
+ 
+    <img src="http://openweathermap.org/img/w/{{weatherToday.weather[0].icon}}.png">
+    <h3>{{Ciudad}}</h3>
+    <p>{{weatherToday.dt_txt}}</p>
+    <p>{{weatherToday.weather[0].description}}</p>
+	<p>Humedad: {{weatherToday.humidity}}</p>
+    <p>Temperatura: {{weatherToday.temp.day}}</p>
+    <p>Temperatura Máxima: {{weatherToday.temp.max}}</p>
+    <p>Temperatura Minima: {{weatherToday.temp.min}}</p>
+  
+  
+  
+    
+</div>
+
+  </ion-content>
+</ion-view>
+
+

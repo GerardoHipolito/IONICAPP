@@ -1,0 +1,28 @@
+
+/* Empty. Add your own CSS if you like */
+
+
+ion-view{
+	background-color:red;
+}
+
+.padding{
+	/*background-color:red;*/
+	background-image:url('b.jpg');
+}
+.listCard{
+	background-color:rgba(0, 0, 255, 0.3);
+	text-align:center;
+}
+
+ion-item{
+	background-color:rgba(0, 0, 255, 0.3);
+}
+
+.hola{
+	background-color:rgba(0, 0, 255, 0.3);
+}
+.padding{
+	background-color:rgba(0, 0, 255, 0.3);
+}
+
